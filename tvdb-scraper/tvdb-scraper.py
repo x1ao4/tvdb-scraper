@@ -48,7 +48,7 @@ for season_number in range(start_season, end_season + 1):
                     try:
                         episode_number = f'{i}'
                         air_date = episode.xpath('td[3]/div[1]/text()')[0].strip()
-                        air_date = datetime.strptime(air_date, '%B %d, %Y').strftime('%Y/%m/%d')
+                        air_date = datetime.strptime(air_date, '%B %d, %Y').strftime('%Y/%-m/%-d')
                         duration = episode.xpath('td[4]/text()')[0].strip()
                         episode_title = episode.xpath('td[2]/a/text()')[0].strip()
                         f.write(f'{episode_number};{air_date};{duration};{episode_title}\n')
