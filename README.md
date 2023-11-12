@@ -4,15 +4,15 @@
 ## 示例
 假设您需要获取「人生切割术 第一季」的剧集信息，使用 tvdb-scraper 后，你会得到以下数据：
 ```
-1;2022/2/18;57;Good News About Hell
-2;2022/2/18;53;Half Loop
-3;2022/2/25;56;In Perpetuity
-4;2022/3/4;46;The You You Are
-5;2022/3/11;43;The Grim Barbarity of Optics and Design
-6;2022/3/18;40;Hide and Seek
-7;2022/3/25;49;Defiant Jazz
-8;2022/4/1;46;What’s for Dinner?
-9;2022/4/8;40;The We We Are
+1;2022/2/18;57;Good News About Hell;
+2;2022/2/18;53;Half Loop;
+3;2022/2/25;56;In Perpetuity;
+4;2022/3/4;46;The You You Are;
+5;2022/3/11;43;The Grim Barbarity of Optics and Design;
+6;2022/3/18;40;Hide and Seek;
+7;2022/3/25;49;Defiant Jazz;
+8;2022/4/1;46;What’s for Dinner?;
+9;2022/4/8;40;The We We Are;
 ```
 
 ## 运行条件
@@ -43,15 +43,15 @@ With tvdb-scraper, you can scrape TV show data from [TheTVDB](https://thetvdb.co
 ## Example
 Suppose you need to get information about the first season of “Severance”. After using tvdb-scraper, you will get the following data:
 ```
-1;2022/2/18;57;Good News About Hell
-2;2022/2/18;53;Half Loop
-3;2022/2/25;56;In Perpetuity
-4;2022/3/4;46;The You You Are
-5;2022/3/11;43;The Grim Barbarity of Optics and Design
-6;2022/3/18;40;Hide and Seek
-7;2022/3/25;49;Defiant Jazz
-8;2022/4/1;46;What’s for Dinner?
-9;2022/4/8;40;The We We Are
+1;2022/2/18;57;Good News About Hell;
+2;2022/2/18;53;Half Loop;
+3;2022/2/25;56;In Perpetuity;
+4;2022/3/4;46;The You You Are;
+5;2022/3/11;43;The Grim Barbarity of Optics and Design;
+6;2022/3/18;40;Hide and Seek;
+7;2022/3/25;49;Defiant Jazz;
+8;2022/4/1;46;What’s for Dinner?;
+9;2022/4/8;40;The We We Are;
 ```
 
 ## Requirements
