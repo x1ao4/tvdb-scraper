@@ -51,7 +51,7 @@ for season_number in range(start_season, end_season + 1):
                         air_date = datetime.strptime(air_date, '%B %d, %Y').strftime('%Y/%-m/%-d')
                         duration = episode.xpath('td[4]/text()')[0].strip()
                         episode_title = episode.xpath('td[2]/a/text()')[0].strip()
-                        f.write(f'{episode_number};{air_date};{duration};{episode_title}\n')
+                        f.write(f'{episode_number};{air_date};{duration};{episode_title};\n')
                         print(f'Processing season {season_number} episode {i}: {episode_title}')
                         info_count += 1
                     except IndexError:
